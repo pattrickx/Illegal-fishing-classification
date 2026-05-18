@@ -1,4 +1,4 @@
-# Illegal-fishing-classification
+# fishing-classification
 
 ## Requirements
 
@@ -16,13 +16,16 @@ python -m pip install -r requirements.txt
 
 * Analise da qualidade dos dados
 * Limpesa e criação de dataset nivel ouro
+* Exploração e extração de insgnes
 * Preparação de processo de auto ml com multiplos modelos de ML e deeplearn
 * Demonstração de resultados e comparação com artigo
 * Explicabilidade dos modelos
 
 ## Dados
-
+origem: [global fishing watch](https://globalfishingwatch.org/data-download/datasets/public-training-data-v1)
 csvs fornecidos: drifting_longlines, fixed_gear, pole_and_line, purse_seines, trawlers, unknown
+
+Esse projeto tem como foco drifting_longlines
 
 **Columns :**
 
@@ -56,3 +59,10 @@ csvs fornecidos: drifting_longlines, fixed_gear, pole_and_line, purse_seines, tr
 
 * Ideal para resultado do modelo é ter verdadeiros negativos ter verdadeiros positivos não ter falsos negativos e ter falsos positivos 
 * falsos positivos são mais faceis de lidar se o foco for proteção ambiental, pois em caso de aplicação de multa para pescadores ilegais pescadores multados erroneamente podem recorer a multa ja pescadores que deveriam ter recebido multa e não receberam não teram interesse na correção.
+
+
+## Tratamento de dados para treinamento
+
+## Treinamento
+
+## Resultados
